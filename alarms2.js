@@ -10,7 +10,7 @@ $(document)
             }
         }, 1000);
         function stopTimer() {
-            document.getElementById("tuturu")
+            document.getElementById("helloThere")
                 .play();
             timer.stop();
         }
