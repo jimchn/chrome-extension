@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "MDN Quick Look Up",
+  "version": "0.1",
+  "description": "Look up quickly without having to go to the MDN",
+  "browser_action": {
+    "default_icon": "mlogo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
