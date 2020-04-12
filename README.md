@@ -1,2 +1,3 @@
 # chrome-extension
-MDN look ups
+
+Count down timer for pair programming sessions
